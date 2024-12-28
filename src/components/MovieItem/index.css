@@ -1,0 +1,45 @@
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  max-width: 1000px;
+  height: 400px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-item {
+  ist-style: none;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  display: inline-block;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0; /* Remove default margin */
+  padding: 0;
+}
+.close-button {
+  position: absolute; /* Position relative to the .popup-container */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  background: none; /* Remove default background */
+  border: none; /* Remove default border */
+  font-size: 20px; /* Increase size for better visibility */
+  cursor: pointer; /* Indicate it's clickable */
+}

@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.primeVideo-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+  padding: 25px;
+}
+.img {
+  height: 300px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
